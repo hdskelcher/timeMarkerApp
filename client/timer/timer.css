@@ -1,0 +1,58 @@
+.headerLogo {
+    width: 100%;
+    height: auto;
+}
+
+.darkBackground {
+    background-color: #333333 !important;
+    height: 100vh;
+}
+
+.timeHeight {
+    font-size: 400%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.timeHeightSmall {
+    font-size: 150%;
+}
+
+.threeSpacer {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.miniTimes {
+    font-size: 135%;
+    font-weight: 900;
+    color: #04BCBC ;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.breakTime {
+    color: #000000 !important;
+}
+
+.listTimes {
+    color: #00B5AD;
+}
+
+.listSegment {
+    margin-bottom: 2% !important;
+    margin-top: 2% !important;
+}
+
+.thin {
+    font-weight: 100 !important;
+}
+
+.drag {
+    margin-bottom: 1% !important;
+    margin-top: 1% !important;
+}
+
+[draggable] {
+    user-select: none;
+}

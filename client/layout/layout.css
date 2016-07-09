@@ -1,0 +1,32 @@
+body {
+    font-family: 'Antic', sans-serif !important;
+}
+h1{
+    font-family: 'Antic', sans-serif !important;
+}
+h2{
+    font-family: 'Antic', sans-serif !important;
+}
+p{
+    font-family: 'Antic', sans-serif !important;
+}
+a{
+    font-family: 'Antic', sans-serif !important;
+}
+li{
+    font-family: 'Antic', sans-serif !important;
+}
+input {
+    font-family: 'Antic', sans-serif !important;
+}
+
+.thin {
+    font-weight: 100;
+}
+
+.center {
+    text-align: center !important;
+    align-content: center;
+
+
+}

@@ -1,0 +1,102 @@
+<template name="timerPage">
+        <div class="ui fluid container">
+        <div class="ui fluid card">
+            <div class="extra content">
+                <div class="ui large header center">HITT Cycling Routine</div>
+            </div>
+            <div class="extra content">
+                <div class="timeHeight center">00:00</div>
+            </div>
+            <div class="extra content">
+                <div class="ui three column grid">
+                    <div class="column center">
+                        Total Time Elapsed
+                        <br>
+                        <div class="miniTimes">00:00</div>
+                    </div>
+                    <div class="column center">
+                        Completed Intervals
+                        <br>
+                        <div class="miniTimes">0/3</div>
+                    </div>
+                    <div class="column center">
+                        Total Time Remaining
+                        <br>
+                        <div class="miniTimes">02:45</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+            <div class="ui inverted list" draggable="true" ondragstart="dragStarted(event)">
+                <div class="item">
+            <div class="ui teal inverted drag segment">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui medium inverted header">Jumping Jacks</div>
+                    </div>
+                    <div class="six wide column center">
+                        00:45
+                    </div>
+                </div>
+            </div>
+                    </div>
+                <div class="item" draggable="true" ondragstart="dragStarted(event)">
+            <div class="ui grey inverted drag segment">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui medium inverted header">Break</div>
+                    </div>
+                    <div class="six wide column center ">
+                        00:15
+                    </div>
+                </div>
+            </div>
+                    </div>
+                <div class="item" draggable="true" ondragstart="dragStarted(event)">
+            <div class="ui teal inverted drag segment">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui medium inverted header">Squat Jumps</div>
+                    </div>
+                    <div class="six wide column center">
+                        00:45
+                    </div>
+                </div>
+            </div>
+                    </div>
+                <div class="item" draggable="true" ondragstart="dragStarted(event)">
+            <div class="ui grey inverted drag segment">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui medium inverted  header">Break</div>
+                    </div>
+                    <div class="six wide column center ">
+                        00:15
+                    </div>
+                </div>
+            </div>
+                </div>
+                <div class="item" draggable="true" ondragstart="dragStarted(event)">
+            <div class="ui teal inverted drag segment">
+                <div class="ui grid">
+                    <div class="ten wide column">
+                        <div class="ui medium inverted header">Mountain Climbers</div>
+                    </div>
+                    <div class="six wide column center">
+                        00:45
+                    </div>
+                </div>
+            </div>
+                    </div>
+                </div>
+        </div>
+        <br>
+        <br>
+        <br>
+    <div class="ui bottom fixed large three item inverted menu">
+        <a class="item"><i class="center large teal chevron left icon"></i></a>
+        <a class="item"><i class="center large teal undo icon"></i></a>
+        <a class="item"><i class="center large teal play icon"></i></a>
+    </div>
+</template>
